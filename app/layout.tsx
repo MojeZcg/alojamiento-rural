@@ -95,10 +95,22 @@ const jsonLd = {
   amenityFeature: [
     { "@type": "LocationFeatureSpecification", name: "WiFi", value: true },
     { "@type": "LocationFeatureSpecification", name: "Pileta", value: true },
-    { "@type": "LocationFeatureSpecification", name: "Estacionamiento", value: true },
-    { "@type": "LocationFeatureSpecification", name: "TV por cable", value: true },
+    {
+      "@type": "LocationFeatureSpecification",
+      name: "Estacionamiento",
+      value: true,
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      name: "TV por cable",
+      value: true,
+    },
     { "@type": "LocationFeatureSpecification", name: "Parrilla", value: true },
-    { "@type": "LocationFeatureSpecification", name: "Lavandería", value: true },
+    {
+      "@type": "LocationFeatureSpecification",
+      name: "Lavandería",
+      value: true,
+    },
   ],
   numberOfRooms: 2,
   petsAllowed: false,
