@@ -19,22 +19,22 @@ export default function Navigation() {
 
   return (
     <nav className="bg-white shadow-md sticky top-0 z-50">
-      <div className="relative px-4 sm:px-6 py-1">
-        <Link
-          href="/"
-          className="absolute left-4 sm:left-10 top-1/2 -translate-y-1/2 font-bold text-stone-800 leading-tight tracking-wide transition-opacity hover:opacity-80 z-10"
-        >
-          <span className="hidden sm:inline text-base md:text-xl">
-            <span className="block">Virgen de Lourdes</span>
-            <span className="block text-sm md:text-lg font-semibold text-stone-700">
+      <div className="px-4 sm:px-6 py-1">
+        <div className="relative flex justify-end md:justify-center items-center h-16 sm:h-20">
+          <Link
+            href="/"
+            className="absolute left-0 sm:left-4 top-1/2 -translate-y-1/2 font-bold text-stone-800 leading-tight tracking-wide transition-opacity hover:opacity-80 z-10"
+          >
+            <span className="hidden sm:inline text-base md:text-xl">
+              <span className="block">Virgen de Lourdes</span>
+              <span className="block text-sm md:text-lg font-semibold text-stone-700">
+                Alojamiento Rural
+              </span>
+            </span>
+            <span className="sm:hidden text-sm font-semibold">
               Alojamiento Rural
             </span>
-          </span>
-          <span className="sm:hidden text-sm font-semibold">
-            Alojamiento Rural
-          </span>
-        </Link>
-        <div className="flex justify-end md:justify-center items-center h-16 sm:h-20">
+          </Link>
           {/* Logo */}
 
           {/* Desktop Navigation */}

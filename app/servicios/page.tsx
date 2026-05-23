@@ -54,7 +54,7 @@ export default function ServiciosPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero */}
-      <section className="bg-linear-to-br from-stone-100 to-white py-12 sm:py-16 md:py-20 px-4 sm:px-6">
+      <section className="bg-linear-to-br from-stone-100 to-white py-12 sm:py-16 md:pt-20 md:pb-6 px-4 sm:px-6">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-stone-800 mb-4 sm:mb-6">
             Nuestros Servicios
