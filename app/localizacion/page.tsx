@@ -1,5 +1,21 @@
+import type { Metadata } from "next";
 import { MapPin, Navigation } from "lucide-react";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Localización",
+  description:
+    "Ubicados en Calle Lozano s/n, San Rafael, Mendoza, Argentina. A minutos del centro, rodeados de naturaleza. Coordenadas: -34.575202, -68.098789.",
+  alternates: {
+    canonical: "https://www.alojamientorural.com.ar/localizacion",
+  },
+  openGraph: {
+    title: "Localización | Alojamiento Rural San Rafael",
+    description:
+      "Calle Lozano s/n, San Rafael, Mendoza. A minutos del centro, rodeados de naturaleza.",
+    url: "https://www.alojamientorural.com.ar/localizacion",
+  },
+};
 
 export default function LocalizacionPage() {
   return (

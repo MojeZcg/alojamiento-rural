@@ -1,4 +1,20 @@
+import type { Metadata } from "next";
 import { Wifi, MapPin, Tv, Flame, RefreshCw, Waves } from "lucide-react";
+
+export const metadata: Metadata = {
+  title: "Servicios",
+  description:
+    "WiFi gratis, pileta al aire libre, TV por cable, parrilla, estacionamiento gratuito y lavandería. Todo lo que necesitas para tu estadía en San Rafael, Mendoza.",
+  alternates: {
+    canonical: "https://www.alojamientorural.com.ar/servicios",
+  },
+  openGraph: {
+    title: "Servicios | Alojamiento Rural San Rafael",
+    description:
+      "WiFi, pileta, TV por cable, parrilla, estacionamiento y lavandería incluidos en San Rafael, Mendoza.",
+    url: "https://www.alojamientorural.com.ar/servicios",
+  },
+};
 
 export default function ServiciosPage() {
   const servicios = [

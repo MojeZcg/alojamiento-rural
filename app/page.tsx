@@ -1,13 +1,16 @@
-"use client";
-
+import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import { useState } from "react";
-import { Home as HomeIcon, Sun, Smile, Calendar } from "lucide-react";
-import ReservaModal from "./components/ReservaModal";
+import { Home as HomeIcon, Sun, Smile } from "lucide-react";
+import HomeReservaSection from "./components/HomeReservaSection";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://www.alojamientorural.com.ar",
+  },
+};
 
 export default function Home() {
-  const [modalOpen, setModalOpen] = useState(false);
   return (
     <div className="min-h-screen  bg-white">
       {/* Hero Section */}
@@ -255,13 +258,7 @@ export default function Home() {
               Incluye todas las comodidades y servicios
             </p>
           </div>
-          <button
-            onClick={() => setModalOpen(true)}
-            className="w-full sm:w-auto inline-flex items-center justify-center px-8 sm:px-10 py-4 sm:py-5 text-lg sm:text-xl font-semibold text-stone-800 bg-white rounded-lg hover:bg-stone-100 transition-all shadow-2xl hover:shadow-3xl transform hover:-translate-y-1"
-          >
-            <Calendar className="w-5 h-5 sm:w-6 sm:h-6 mr-2 sm:mr-3" />
-            Reservar Ahora
-          </button>
+          <HomeReservaSection />
         </div>
       </section>
 
@@ -313,12 +310,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Modal de Reserva */}
-      <ReservaModal
-        isOpen={modalOpen}
-        onClose={() => setModalOpen(false)}
-        habitacion="Alojamiento Rural - Completo"
-      />
     </div>
   );
 }
