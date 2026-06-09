@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Alojamiento Rural
 
-## Getting Started
+Sitio web profesional para Virgen de Lourdes Alojamiento Rural, ubicado en San Rafael, Mendoza.
 
-First, run the development server:
+El proyecto está desarrollado con Next.js, TypeScript y Tailwind CSS, con foco en diseño responsive, experiencia de usuario, optimización visual y conversión de visitantes en reservas.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Características
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Página principal institucional
+- Galería de imágenes de la propiedad
+- Sección de dormitorios
+- Sección de servicios
+- Localización del alojamiento
+- Formulario/contacto para reservas
+- Actividades turísticas recomendadas
+- Diseño responsive
+- Optimización SEO
+- Integración con Resend
+- Analítica con Vercel Analytics
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tecnologías
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Resend
+- Vercel Analytics
+- lucide-react
 
-## Learn More
+## Objetivo
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Brindar una presencia digital moderna para un alojamiento rural, destacando sus comodidades, entorno natural y ubicación estratégica en San Rafael, Mendoza.
